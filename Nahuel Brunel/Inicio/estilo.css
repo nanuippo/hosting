@@ -1,0 +1,102 @@
+
+html {
+  height: 100%;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: #E6DEDD;
+  color: #1B120F;
+  padding: 0;
+  margin: 0;
+}
+header {
+  text-align: center;
+  font-size: 30px;
+  background-color:  #F89D13;
+  color: #1B120F;
+  padding: 25px;
+}
+
+.flex-contenedor{
+  display: flex;
+  justify-content:space-around;
+  background-color: #8F1D14;
+  border-radius: 0px 25px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: #F89D13;
+  
+  
+}
+
+nav a:hover{
+  background: #F89D13;
+  color: #141312;
+  border-radius:  0px 25px;
+  padding: 20px;
+}
+
+.sobremi{
+  padding-bottom: 250px;
+}
+.sobremi img {
+  border-radius: 5px 100px;
+  float: left;
+}
+
+.sobremi p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.manejo{
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  font-size: 30px;
+  background-color: #F89D13;
+  border-radius: 0px 25px;
+  color: #8F1D14;
+
+}
+
+.tecnologias{
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.tecnologias #tecno{
+  display: flex;
+  flex-flow: column-reverse wrap;
+  margin: 25px;
+  
+}
+
+#tecno{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer{
+  background-color: #8F1D14;
+  color: #F89D13;
+}
+
+
+.tecnologias {
+  float: right;
+}
