@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+  }
+  /*esto es reutizable*/
+  body {
+    font-family: "Ubuntu", sans-serif;
+    background: #E6DEDD;
+    color: #1B120F;
+    padding: 0;
+    margin: 0;
+  }
+   /*esto es reutizable*/
+  header {
+    text-align: center;
+    font-size: 30px;
+    background-color:  #F89D13;
+    color: #1B120F;
+    padding: 25px;
+  }
+   /*esto es reutizable*/
+  .flex-contenedor{
+    display: flex;
+    justify-content:space-around;
+    background-color: #8F1D14;
+    border-radius: 0px 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+   /*esto es reutizable*/
+  nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: #F89D13;
+  }
+   /*esto es reutizable*/
+  nav a:hover{
+    background: #F89D13;
+    color: #141312;
+    border-radius:  0px 25px;
+    padding: 20px;
+  }
+
+
+.contenedor{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+aside{
+  background-color: #E6DEDD;
+  flex: 70%;
+  text-align: center;
+}
+aside img{
+  padding: 80px;
+}
+
+aside h2{
+  font-size: 40px;
+}
+form{
+  flex: 10%;
+  
+}
+
+.contenido{
+  margin: 0px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 0px 25px;
+  background-color:  #F89D13;
+
+}
+.contenido label{
+  color: #8F1D14;
+}
+.contenido input{
+  width: 100%;
+  padding: 10px 0;
+  color:#8F1D14;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E6DEDD;
+  margin-bottom: 30px;
+}
+
+.contenido input{
+  width: 100%;
+  padding: 10px 0;
+  color:#8F1D14;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E6DEDD;
+  margin-bottom: 30px;
+}
+
+.contenido input[type="submit"]{
+    background-color: #8F1D14;
+    border: none;
+    border-radius: 10px;
+    color: #F89D13;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+textarea{
+  border-radius: 10px;
+  border-style: none;
+  background-color: #E6DEDD;
+  color: #8F1D14;
+  font-size: 20px;
+  
+}
+
+footer{
+  background-color: #8F1D14;
+  color: #F89D13;
+  margin-top: 50px;
+ 
+}
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #0670b3;
+    text-align: center;
+}
+
+.contenido .elemento label{
+    color: #0670b3;
+
+}
+
+.contenido input{
+    width: 100%;
+    padding: 10px 0;
+    color:#0670b3;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.contenido input[type="submit"]{
+    background-color: #0670b3;
+    border: none;
+    border-radius: 10px;
+    color: #03314e;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+form{
+  background-color: blueviolet;
+  flex: 40%;
+  justify-content: center;
+  border: brown solid 2px;  
+}
+/*
+form div{
+  border: solid white 5px;
+  padding: 25px;
+  text-align: center;
+}
+*/
+
